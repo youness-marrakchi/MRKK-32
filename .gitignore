@@ -1,0 +1,30 @@
+# ── ModelSim project / simulation artifacts ──────────────────────
+# The whole modelsim/ folder is regenerated locally on every run —
+# none of it is source, so none of it belongs in version control.
+modelsim/
+
+# Named explicitly too, in case these ever end up outside modelsim/
+newProPro.mpf
+newProPro.cr.mti
+
+# ── Catch-all in case any of these get created outside modelsim/ ──
+work/
+*.wlf
+*.vstf
+*.mti
+*.mpf
+transcript
+*.ucdb
+*.log
+
+# ── GHDL artifacts (if you ever simulate with GHDL too) ───────────
+*.cf
+*.o
+*.vcd
+*.ghw
+
+# ── OS / editor junk ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
