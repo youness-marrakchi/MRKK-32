@@ -18,7 +18,7 @@ Testbenches      11 files, 145+ verified test cases, zero failures
 
 ## Why this exists
 
-Most student CPU projects stop at "it adds two numbers in a simulator." MRKK-32 goes further: it has a real memory hierarchy with caching and hazard handling, it services interrupts with correct PC/cause save-restore, it talks to memory-mapped peripherals, and every architectural choice is documented with the reasoning behind it — not just the result.
+...Why not ??
 
 ## Proof
 
